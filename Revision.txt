@@ -1,0 +1,22 @@
+Virtualization
+
+Virtualization is the process of running a virtual instance of a computer system,likee  running multiple operating systems on a computer system simultaneously.The most common use of virtualization is to be able to run applications meant for a different operating system without having to switch computers.
+
+HYpervisor
+
+A hypervisor is a program for creating and running virtual machiness.
+2 types:-
+Type one, or "bare metal" hypervisors: that run guest virtual machines directly on a system's hardware, essentially behaving as an operating system.
+
+Type two, or "hosted" hypervisors : that behave like normal applications that can be started and stopped like a normal program.
+
+Virtual MAchine
+A virtual machine is equivalent of a computer system that runs on top of another system.
+
+Docker
+Docker is a tool designed to make it easier to create, deploy, and run applications by using containers.Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package.
+
+In a way, Docker is a bit like a virtual machine. But unlike a virtual machine, rather than creating a whole virtual operating system, Docker allows applications to use the same kernel as the system that they're running on and only requires applications be shipped with things not already running on the host computer. This gives a significant performance boost and reduces the size of the application.
+
+Kubernetes
+Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.It groups containers that make up an application into logical units for easy management and discoveryIt eliminates many of the manual processes involved in deploying and scaling containerized applications.
