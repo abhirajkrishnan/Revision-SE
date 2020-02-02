@@ -20,3 +20,22 @@ In a way, Docker is a bit like a virtual machine. But unlike a virtual machine, 
 
 Kubernetes
 Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.It groups containers that make up an application into logical units for easy management and discoveryIt eliminates many of the manual processes involved in deploying and scaling containerized applications.
+
+Data serialization
+
+Data serialization is the process of converting structured data to a format that allows sharing or storage of the data in a form that allows recovery of its original structure.
+
+->Xml(1998)
+
+XML stands for Extensible Markup Language. It is a text-based markup language derived from Standard Generalized Markup Language (SGML).
+Extensible Markup Language is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
+XML tags identify the data and are used to store and organize the data, rather than specifying how to display it like HTML tags, which are used to display the data. 
+
+->JSON(2002)
+JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. 
+JSON, or JavaScript Object Notation, is a minimal, readable format for structuring data. It is used primarily to transmit data between a server and web application, as an alternative to XML
+
+->yaml(2014)
+YAML is a human-readable data serialization standard that can be used in conjunction with all programming languages and is often used to write configuration files.
+->Protocol Bufferss
+Protocol Buffers is a method of serializing structured data. It is useful in developing programs to communicate with each other over a wire or for storing data. The method involves an interface description language that describes the structure of some data and a program that generates source code from that description for generating or parsing a stream of bytes that represents the structured data.
